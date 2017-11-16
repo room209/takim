@@ -29,10 +29,10 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(117, 129)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button2.Location = New System.Drawing.Point(88, 105)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(229, 63)
+        Me.Button2.Size = New System.Drawing.Size(172, 51)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "ROOM 209"
         Me.Button2.UseVisualStyleBackColor = True
@@ -40,32 +40,33 @@ Partial Class Form1
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(208, 224)
-        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox1.Location = New System.Drawing.Point(156, 182)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(100, 21)
+        Me.CheckBox1.Size = New System.Drawing.Size(81, 17)
         Me.CheckBox1.TabIndex = 5
         Me.CheckBox1.Text = "CheckBox1"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(154, 12)
+        Me.Button1.Location = New System.Drawing.Point(116, 10)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(56, 19)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(495, 326)
+        Me.BackColor = System.Drawing.Color.Aqua
+        Me.ClientSize = New System.Drawing.Size(371, 265)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button2)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ForeColor = System.Drawing.Color.Red
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
